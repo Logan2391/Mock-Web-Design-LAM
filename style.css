@@ -1,0 +1,498 @@
+/* Resets */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('./fonts/latoblack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('./fonts/Bebas-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('./fonts/oswald.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('./fonts//Lato-Light.ttf') format('truetype');
+}
+
+/* Banner */
+
+.banner-container {
+    background-image: url(/images/bannerBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px
+}
+
+.banner-logo {
+    padding-top: .8%;
+    width: 2.5vw;
+    justify-self: right;
+}
+
+.align-logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-items {
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7%;
+    font-family: 'latoblack';
+    font-size: 19px;
+    color: #fefeff;
+    letter-spacing: 3px;
+}
+
+.top-nav-icon {
+    grid-column-start: 2;
+    justify-self: end;
+    cursor: pointer;
+    align-self: center;
+}
+
+/* .top-nav-icon-active {
+    
+} */
+    
+
+.nav-item-1 {
+    justify-self: right;
+    align-self: center;
+    border-bottom: 2px solid #fefeff;
+    width: fit-content;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.nav-item-2 {
+    align-self: center;
+    border-bottom: 2px solid #fefeff;
+    width: fit-content;
+    display: inline-block;
+    line-height: 1.5;
+
+}
+
+/* Middle Nav*/
+
+.middle-nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.middle-logo {
+    width: 2.5vw;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-self: right;
+}
+
+.mid-logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5%;
+    font-size: 20px;
+}
+
+.mid-logo-text-container {
+    align-self: center;
+    line-height: .8;
+    font-size: 40px;
+}
+
+.mid-logo-text1 {
+    font-family: 'Bebas';
+    color: #4d4d4d;
+    letter-spacing: .5px;
+}
+
+.mid-logo-text2 {
+    font-family: 'Bebas';
+    color: #404f6c;
+}
+
+.mid-nav-items {
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7%;
+    font-family: 'latoblack';
+    font-size: 19px;
+    color: #414f6b;
+    letter-spacing: 3px;
+}
+
+.mid-nav-icon {
+    grid-column-start: 2;
+    justify-self: end;
+    cursor: pointer;
+    align-self: center;
+}
+
+.mid-nav-item-1 {
+    justify-self: right;
+    align-self: center;
+    border-bottom: 2px solid #414f6b;
+    width: fit-content;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.mid-nav-item-1:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.mid-nav-item-2 {
+    align-self: center;
+    border-bottom: 2px solid #414f6b;
+    width: fit-content;
+    display: inline-block;
+    line-height: 1.5;
+
+}
+
+.mid-nav-item-2:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+/* History Section*/
+
+.history-container {
+    background-image: url(/images/historyBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    position: relative;
+}
+
+.history-content-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.history-num {
+    font-family: 'oswald';
+    font-size: 250px;
+    padding-top: 2%;
+    color: #414f6b;
+    opacity: .5;
+}
+
+.history-title {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-size: 60px;
+    font-family: 'oswald';
+    color: #414f6b;
+}
+
+.history-content {
+    font-family: 'latolight';
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+.history-carousel-container {
+    position: absolute;
+    background-color: rgba(70, 83, 105, .8);
+    height: fit-content;
+    width: 100%;
+    bottom: 0;
+}
+
+.history-carousel {
+    display: grid;
+    gap: 1%;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.history-carousel-img {
+    width: 100%;
+    height: 100%;
+}
+
+.history-carousel-img:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.history-carousel-img-first {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.history-carousel-img-first:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.history-carousel-img-last {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.history-carousel-img-last:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #fefeff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 .5%;
+    opacity: .6;
+    margin-bottom: 1%;
+}
+
+.dot:hover {
+    opacity: 1;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* Climb section */
+
+.climb-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    height: fit-content;
+    position: relative;
+}
+
+.climb-num {
+    font-family: 'oswald';
+    font-size: 250px;
+    color: #414f6b;
+    opacity: .5;
+    width: min-content;
+}
+
+.climb-title {
+    position: absolute;
+    left: 18%;
+    top: 47%;
+    font-size: 60px;
+    font-family: 'oswald';
+    color: #414f6b;
+}
+
+.climb-content {
+    display: flex;
+    font-family: 'latolight';
+    font-size: 30px;
+    margin-left: 8%;
+    align-items: center;
+}
+
+/* Mountain tab bar */
+
+.mountain-tabs {
+    display: flex;
+    padding-left: 19%;
+    width: 100%;
+    height: fit-content;
+    background-color: #414f6b;
+    font-family: 'oswald';
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    padding: 1%;
+    font-size: 26px;
+    color: #414f6b;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: #b0b4be;
+    text-decoration: underline;
+
+}
+
+.inactive {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    padding: 1%;
+    font-size: 26px;
+    color: #b0b4be;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* Mountain Schedule */
+
+.mountain-schedule-containter-active {
+    background-image: url(/images/tab1BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    height: 1000px;
+    position: relative;
+}
+
+.mountain-schedule-containter-inactive {
+    display: flex;
+    background-image: url(/images/tab2BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    height: 1000px;
+    position: relative;
+}
+
+.mountain-schedule {
+    background-color: rgba(255, 255,255, .8);
+    width: 19%;
+    height: 32%;
+    position: absolute;
+    left: 21%;
+    top: 20%;
+}
+
+.schedule-title {
+    font-family: 'oswald';
+    font-size: 40px;
+    color: #414f6b;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    font-family: 'latolight';
+    font-size: 23px;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #414f6b;
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    font-family: 'latoblack';
+    font-size: 25px;
+    color: #5d6f94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-logo {
+    width: 2.5vw;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-self: right;
+    align-self: center;
+}
+
+.footer-logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5%;
+    font-size: 20px;
+}
+
+.footer-logo-text-container {
+    align-self: center;
+    line-height: .8;
+    font-size: 40px;
+}
+
+.footer-logo-text1 {
+    font-family: 'Bebas';
+    color: #63769d;
+    letter-spacing: .5px;
+}
+
+.footer-logo-text2 {
+    font-family: 'Bebas';
+    color: #63769d;
+}

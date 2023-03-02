@@ -1,0 +1,889 @@
+/*Background Image Queries*/
+
+@media (max-width: 2380px) {
+    .banner-container {
+        height: 1300px
+    }
+
+    .history-container {
+        height: 1300px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 800px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 800px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 33px;
+    }
+
+    .history-num {
+        font-size: 220px;
+    }
+
+    .history-title {
+        font-size: 55px;
+        left: 16%;
+        top: 38%;
+    }
+
+    .history-content {
+        font-size: 25px;
+    }
+
+    .climb-num {
+        font-size: 220px;
+    }
+
+    .climb-title {
+        left: 18%;
+        top: 47%;
+        font-size: 55px;
+    }
+
+    .climb-content {
+        font-size: 25px;
+    }
+
+    .mountain-schedule {
+        width: 500px;
+        height: 300px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 38px;
+    }
+
+    .schedule-grid {
+        gap: 8%;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 2060px) {
+    .banner-container {
+        height: 1000px
+    }
+
+    .history-container {
+        height: 1000px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 600px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 600px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 30px;
+    }
+
+    .history-num {
+        font-size: 200px;
+    }
+
+    .history-title {
+        font-size: 45px;
+        left: 18%;
+        top: 36%;
+    }
+
+    .history-content {
+        font-size: 25px;
+    }
+
+    .climb-num {
+        font-size: 200px;
+    }
+
+    .climb-title {
+        left: 20%;
+        top: 47%;
+        font-size: 45px;
+    }
+
+    .climb-content {
+        font-size: 25px;
+    }
+
+    .footer-container {
+        height: 110px;
+    }
+
+    .copyright {
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        width: 2.5vw;
+    }
+
+    .footer-logo-text-container {
+        font-size: 30px;
+    }
+
+    .footer-logo-text1 {
+        letter-spacing: .3px;
+    }
+}
+
+@media (max-width: 1660px) {
+    .banner-container {
+        height: 800px
+    }
+
+    .history-container {
+        height: 800px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 500px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 500px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 25px;
+    }
+
+    .mid-logo-text1 {
+        letter-spacing: .3px;
+    }
+
+    .history-num {
+        font-size: 200px;
+    }
+
+    .history-title {
+        font-size: 45px;
+        left: 18%;
+        top: 36%;
+    }
+
+    .history-content {
+        font-size: 25px;
+    }
+
+    .climb-num {
+        font-size: 200px;
+    }
+
+    .climb-title {
+        left: 22%;
+        top: 47%;
+        font-size: 45px;
+    }
+
+    .climb-content {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1580px) {
+    .nav-items {
+        font-size: 16px;
+    }
+
+    .mid-nav-items {
+        font-size: 16px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 24px;
+    }
+
+    .history-num {
+        font-size: 150px;
+    }
+
+    .history-title {
+        font-size: 40px;
+        left: 16.5%;
+        top: 30%;
+    }
+
+    .history-content {
+        font-size: 25px;
+    }
+
+    .climb-num {
+        font-size: 150px;
+    }
+
+    .climb-title {
+        left: 19%;
+        top: 46%;
+        font-size: 40px;
+    }
+
+    .climb-content {
+        font-size: 19px;
+    }
+
+    .mountain-schedule {
+        width: 500px;
+        height: 280px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 30px;
+    }
+
+    .schedule-grid {
+        gap: 8%;
+        font-size: 23px;
+    }
+
+    .footer-container {
+        height: 90px;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        width: 2.5vw;
+    }
+
+    .footer-logo-text-container {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .mid-logo-text-container {
+        font-size: 20px;
+    }
+
+    .history-num {
+        font-size: 150px;
+    }
+
+    .history-title {
+        font-size: 40px;
+        left: 17.5%;
+        top: 32%;
+    }
+
+    .history-content {
+        font-size: 20px;
+    }
+
+    .climb-num {
+        font-size: 150px;
+    }
+
+    .climb-title {
+        left: 19%;
+        top: 46%;
+        font-size: 40px;
+    }
+
+    .climb-content {
+        font-size: 17px;
+    }
+
+    .active {
+        font-size: 22px;
+    }
+
+    .inactive {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner-container {
+        height: 600px
+    }
+
+    .history-container {
+        height: 600px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 400px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 400px;
+    }
+
+    .nav-items {
+        font-size: 13px;
+    }
+
+    .mid-nav-items {
+        font-size: 13px;
+    }
+
+    .middle-logo {
+        width: 3.5vw;
+    }
+
+    .banner-logo {
+        width: 3.5vw;
+    }
+
+    .mid-logo-text-container {
+        font-size: 25px;
+    }
+
+    .history-num {
+        font-size: 100px;
+    }
+
+    .history-title {
+        font-size: 25px;
+        left: 15%;
+        top: 27%;
+    }
+
+    .history-content {
+        font-size: 20px;
+    }
+
+    .climb-num {
+        font-size: 100px;
+    }
+
+    .climb-title {
+        left: 18%;
+        top: 46%;
+        font-size: 25px;
+    }
+
+    .climb-content {
+        font-size: 19px;
+    }
+
+    .mountain-schedule {
+        width: 430px;
+        height: 200px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 25px;
+    }
+
+    .schedule-grid {
+        gap: 6%;
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        width: 3.5vw;
+    }
+
+    .footer-logo-text1 {
+        letter-spacing: .2px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mid-logo-text-container {
+        font-size: 22px;
+    }
+
+    .history-num {
+        font-size: 100px;
+    }
+
+    .history-title {
+        font-size: 25px;
+        left: 15%;
+        top: 27%;
+    }
+
+    .history-content {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .banner-container {
+        height: 400px
+    }
+
+    .history-container {
+        height: 500px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 300px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 300px;
+    }
+
+    .nav-items {
+        font-size: 10px;
+    }
+
+    .mid-nav-items {
+        font-size: 10px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 18px;
+    }
+
+    .mid-logo-text1 {
+        letter-spacing: .2px;
+    }
+
+    .history-num {
+        font-size: 75px;
+    }
+
+    .history-title {
+        font-size: 20px;
+        left: 15%;
+        top: 26%;
+    }
+
+    .history-content {
+        font-size: 14px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: #fefeff;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 .5%;
+        opacity: .6;
+        margin-bottom: 1%;
+    }
+
+    .climb-num {
+        font-size: 75px;
+    }
+
+    .climb-title {
+        left: 17%;
+        top: 46%;
+        font-size: 20px;
+    }
+
+    .climb-content {
+        font-size: 14px;
+    }
+
+    .active {
+        font-size: 15px;
+    }
+
+    .inactive {
+        font-size: 15px;
+    }
+
+    .mountain-schedule {
+        width: 300px;
+        height: 150px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 20px;
+    }
+
+    .schedule-grid {
+        gap: 6%;
+        font-size: 15px;
+    }
+
+    .footer-container {
+        height: 70px;
+    }
+    
+    .copyright {
+        font-size: 12px;
+    }
+    
+    .footer-logo {
+        width: 3.5vw;
+    }
+    
+    .footer-logo-text-container {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        font-size: 19px;
+    }
+
+    .mid-nav-items {
+        font-size: 19px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 15px;
+    }
+
+    .history-num {
+        font-size: 60px;
+    }
+
+    .history-title {
+        font-size: 15px;
+        left: 15%;
+        top: 26%;
+    }
+
+    .history-content {
+        font-size: 12px;
+    }
+
+    .climb-num {
+        font-size: 60px;
+    }
+
+    .climb-title {
+        left: 16%;
+        top: 46%;
+        font-size: 15px;
+    }
+
+    .climb-content {
+        font-size: 12px;
+    }
+
+    .active {
+        font-size: 16px;
+    }
+
+    .inactive {
+        font-size: 16px;
+    }
+
+    .footer-container {
+        height: 50px;
+    }
+
+    .footer-logo-text-container {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 630px) {
+    .banner-container {
+        height: 350px;
+    }
+
+    .history-container {
+        height: 350px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 250px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 250px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 12px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #fefeff;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 .5%;
+        opacity: .6;
+        margin-bottom: 1%;
+    }
+
+    .history-num {
+        font-size: 45px;
+    }
+
+    .history-title {
+        font-size: 12px;
+        left: 13.5%;
+        top: 26%;
+    }
+
+    .history-content {
+        font-size: 10px;
+    }
+
+    .climb-num {
+        font-size: 45px;
+    }
+
+    .climb-title {
+        left: 16%;
+        top: 46%;
+        font-size: 12px;
+    }
+
+    .climb-content {
+        font-size: 9px;
+    }
+
+    .active {
+        font-size: 12px;
+    }
+
+    .inactive {
+        font-size: 12px;
+    }
+
+    .mountain-schedule {
+        width: 200px;
+        height: 100px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 15px;
+    }
+
+    .schedule-grid {
+        gap: 6%;
+        font-size: 10px;
+    }
+
+    .footer-container {
+        height: 50px;
+    }
+    
+    .copyright {
+        font-size: 12px;
+    }
+    
+    .footer-logo {
+        width: 3.5vw;
+    }
+    
+    .footer-logo-text-container {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 513px) {
+    .banner-container {
+        height: 250px;
+    }
+
+    .history-container {
+        height: 250px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 200px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 200px;
+    }
+
+    .nav-items {
+        font-size: 13px;
+    }
+
+    .mid-nav-items {
+        font-size: 13px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 9px;
+    }
+
+    .dot {
+        height: 6px;
+        width: 6px;
+        background-color: #fefeff;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 .5%;
+        opacity: .6;
+        margin-bottom: 1%;
+    }
+
+    .history-num {
+        font-size: 35px;
+    }
+
+    .history-title {
+        font-size: 9px;
+        left: 13.5%;
+        top: 27%;
+    }
+
+    .history-content {
+        font-size: 7px;
+    }
+
+    .climb-num {
+        font-size: 35px;
+    }
+
+    .climb-title {
+        left: 15%;
+        top: 46%;
+        font-size: 9px;
+    }
+
+    .climb-content {
+        font-size: 9px;
+    }
+
+    .active {
+        font-size: 12px;
+    }
+
+    .inactive {
+        font-size: 12px;
+    }
+
+    .footer-container {
+        height: 30px;
+    }
+    
+    .copyright {
+        font-size: 8px;
+    }
+    
+    .footer-logo {
+        width: 3.5vw;
+    }
+    
+    .footer-logo-text-container {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .banner-container {
+        height: 200px;
+    }
+
+    .history-container {
+        height: 200px;
+    }
+
+    .mountain-schedule-containter-active {
+        height: 150px;
+    }
+
+    .mountain-schedule-containter-inactive {
+        height: 150px;
+    }
+
+    .nav-items {
+        font-size: 11px;
+    }
+
+    .mid-nav-items {
+        font-size: 11px;
+    }
+
+    .mid-logo-text-container {
+        font-size: 7px;
+    }
+
+    .mid-logo-text1 {
+        letter-spacing: .1px;
+    }
+
+    .history-num {
+        font-size: 25px;
+    }
+
+    .history-title {
+        font-size: 7px;
+        left: 12%;
+        top: 26%;
+    }
+
+    .history-content {
+        font-size: 6px;
+    }
+
+    .climb-num {
+        font-size: 25px;
+    }
+
+    .climb-title {
+        left: 13%;
+        top: 46%;
+        font-size: 7px;
+    }
+
+    .climb-content {
+        font-size: 6px;
+    }
+
+    .active {
+        font-size: 8px;
+    }
+
+    .inactive {
+        font-size: 8px;
+    }
+
+    .mountain-schedule {
+        width: 170px;
+        height: 90px;
+        left: 21%;
+        top: 20%;
+    }
+
+    .schedule-title {
+        font-size: 10px;
+    }
+
+    .schedule-grid {
+        gap: 6%;
+        font-size: 8px;
+    }
+
+    .footer-container {
+        height: 25px;
+    }
+    
+    .copyright {
+        font-size: 6px;
+    }
+    
+    .footer-logo {
+        width: 3.5vw;
+    }
+    
+    .footer-logo-text-container {
+        font-size: 8px;
+    }
+
+    .footer-logo-text1 {
+        letter-spacing: .1px;
+    }
+}
