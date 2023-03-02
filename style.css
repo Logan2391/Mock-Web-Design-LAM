@@ -57,7 +57,7 @@ html,body{
 /* Banner */
 
 .banner-container {
-    background-image: url('/images/bannerBackground.png');
+    background-image: url('./images/bannerBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1500px
@@ -208,7 +208,7 @@ html,body{
 /* History Section*/
 
 .history-container {
-    background-image: url('/images/historyBG.png');
+    background-image: url('./images/historyBG.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1500px;
@@ -398,7 +398,7 @@ html,body{
 /* Mountain Schedule */
 
 .mountain-schedule-containter-active {
-    background-image: url('/images/tab1BG.png');
+    background-image: url('./images/tab1BG.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center ;
@@ -408,7 +408,7 @@ html,body{
 
 .mountain-schedule-containter-inactive {
     display: flex;
-    background-image: url('/images/tab2BG.png');
+    background-image: url('./images/tab2BG.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center ;
